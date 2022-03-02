@@ -107,6 +107,7 @@ html{
 }
 .header .links:hover ul{
     display: block;
+    z-index: 2;
 }
 .header .links ul a{
     display: block;
@@ -380,6 +381,9 @@ html{
     }
     .about .image{
         margin: 0 auto 50px; /*from bottom 50px, right and left auto*/
+    }
+    .about .about-content .image::after{
+        left: 140px;
     }
 }
 /*end about*/
